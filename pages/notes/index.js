@@ -1,32 +1,28 @@
 import Link from 'next/link'
-import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../../components/layout'
+import Head_context from '../../components/head'
+import Footer_context from '../../components/footer'
+import Header_context from '../../components/header'
+import Note_context from '../../components/note'
 
-const profilePic= () => (
-    <Image
-      src="/images/profile.jpg" // Route of the image file
-      height={144} // Desired size with correct aspect ratio
-      width={144} // Desired size with correct aspect ratio
-      alt="Your Name"
-    />
-  )
+const siteTitle = '1111 Notes'
 
 export default function Notes(){
     return (
         <Layout>
- 
-        <Head>
-            <title>永久记事本</title>
-            <link rel="icon" href="/favicon.ico" />
-        </Head>
-            <h1>First Note</h1>
-            <h2>
-                <Link href='/'>
-                    <a>Back to home</a>
-                </Link>
-            </h2>
+            <Head_context>
+                <title>{siteTitle}</title>
+            </Head_context>
 
+            <Header_context>
+            </Header_context>
+
+            <Note_context>
+            </Note_context>
+
+            <Footer_context>
+            </Footer_context>
 
         </Layout>
 
