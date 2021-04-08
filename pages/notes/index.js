@@ -8,7 +8,7 @@ import Note_context from '../../components/note'
 
 const siteTitle = '1111 Notes'
 
-export default function Notes(){
+export default function Notes({noteData}){
     return (
         <Layout>
             <Head_context>
@@ -22,9 +22,11 @@ export default function Notes(){
             </Note_context>
 
             <Footer_context>
+            
             </Footer_context>
 
         </Layout>
+        
 
 
     )
