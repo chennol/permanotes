@@ -22,7 +22,6 @@ export default function Notes({noteData}){
             </Note_context>
 
             <Footer_context>
-            
             </Footer_context>
 
         </Layout>
