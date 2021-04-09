@@ -10,7 +10,7 @@ export default function Main_context({ children }) {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="\./notes/">
+          <Link href="/notes/">
             <a  className={styles.card} id= "note1">
               <Image 
                 src="/..\public\images\note1.png" // Route of the image file
@@ -20,7 +20,7 @@ export default function Main_context({ children }) {
               />
             </a>
           </Link>
-          <Link href="\./notes/">
+          <Link href="/notes/">
             <a className={styles.card} id='note2'>
               <Image 
                 src="/..\public\images\note2.png" // Route of the image file
@@ -30,7 +30,7 @@ export default function Main_context({ children }) {
               />
             </a>
           </Link>
-          <Link href="\./notes/">
+          <Link href="/notes/">
             <a className={styles.card} id='note3'>
               <Image 
                 src="/..\public\images\note3.png" // Route of the image file
@@ -40,7 +40,7 @@ export default function Main_context({ children }) {
               />
            </a>
           </Link>
-          <Link href="\./notes/">
+          <Link href="/notes/">
             <a className={styles.card} id='note4'>
               <Image 
                 src="/..\public\images\note4.png" // Route of the image file
@@ -50,7 +50,7 @@ export default function Main_context({ children }) {
               />
             </a>
           </Link>
-          <Link href="\./notes/">
+          <Link href="/notes/">
             <a className={styles.card} id='note5'>
               <Image 
                 src="/..\public\images\note5.png" // Route of the image file

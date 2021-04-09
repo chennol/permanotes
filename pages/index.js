@@ -9,26 +9,20 @@ const siteTitle = 'Memory Notes'
 
 export default function Home() {
 
-  const variants = {
-    visible: { opacity: 1 },
-    hidden: { opacity: 0 },
-  }
   return (
     <Layout>
-    <Head_context>
-      <title>{siteTitle}</title>
-    </Head_context>
+      <Head_context>
+        <title>{siteTitle}</title>
+      </Head_context>
 
-    <Header_context>
-    </Header_context>
+      <Header_context>
+      </Header_context>
 
-    <Main_context>
-    </Main_context>
+      <Main_context>
+      </Main_context>
 
-    <Footer_context>
-    </Footer_context>
-  </Layout>
- 
-
+      <Footer_context>
+      </Footer_context>
+    </Layout>
   )
 }
