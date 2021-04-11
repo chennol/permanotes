@@ -1,3 +1,7 @@
 .noteMain{
-    flex:1
+    flex:1;
+    width:70%
 }
+.noteMain h1{
+    text-align: center;
+  }
